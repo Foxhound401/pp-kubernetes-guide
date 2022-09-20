@@ -4,12 +4,6 @@
 - [Pod design]()
 
 
-
-
-
-
-
-
 # Pod design 
 
 [Labels And Annotations](#labels-and-annotations)
@@ -198,6 +192,8 @@ kubectl annotate pod nginx1 --list
 kubectl describe po nginx1 | grep -i 'annotations'
 ```
 
+</p>
+</details>
 
 ### Remove these pods to have a clean state in your cluster
 
